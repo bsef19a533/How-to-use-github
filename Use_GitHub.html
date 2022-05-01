@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>A step-by-step guide to Github</h1><br>
+    <h2>Step 1: Create a Github account</h2>
+    <p>The easiest way to get started is to create an account on GitHub.com</p><br>
+    <img src="git_guide1.png" alt="xyz"><br>
+    <p>Pick a username, enter your email address and a password, and click Sign up for GitHub.<br>
+    Once you are in, it will look something like this:</p><br>
+    <img src="git_guide2.png" alt="xyz"><br><br>
+    <h2>Step 2: Create a new repository</h2>
+    <p>
+        Repositories are storage containers for a project where you can save different versions <br>
+        of your code To create a new repository, select New Repository from the + sign dropdown <br>
+        menu (you can see I've selected it in the upper-right corner in the image above).
+   </p><br>
+   <img src="git_guide3.png" alt="xyz">
+   <p>Enter a name for your repository(e.g, "Demo") and click Create Repository. Don't worry about changing <br>any other options on this page.</p><br>
+
+   <h2>Step 3: Install Git</h2>
+   <p>To see if you already have Git installed, open up your terminal application.<br><br>
+    If you're on a Windows machine, open the windows command prompt or "Git Bash".<br><br>
+    Once you've opened your terminal application, type git version. The output will either tell you<br>
+    which version of Git is installed, or it will alert you that git is an unknown command. If it's an<br>
+    unknown command, then install Git.
+   </p>
+   <h3>Install Git for windows</h3>
+   <p>1. Navigate to the latest Git for Windows installer and download the latest version.<br>
+    2. Once the installer has started, follow the instructions as provided in the Git Setup wizard screen until the installation is complete.<br>
+    3. Open the windows command prompt (or Git Bash if you selected not to use the standard Git Windows Command Prompt during the Git installation).<br>
+    4. Type git version to verify Git was installed.<br><br>
+    Note: git-scm is a popular and recommended resource for downloading Git for Windows. The advantage <br>
+    of downloading Git from git-scm is that your download automatically starts with the latest version <br>
+    of Git included with the recommended command prompt, Git Bash . <br>
+</p>
+<h2>Step 4: Clone your Repository</h2>
+<p>Git clone is a command for downloading existing source code from a remote repository (like Github, for example). In other words, Git clone basically<br>
+makes an identical copy of the latest version of a project in a repository and saves it to your computer..To clone repo, copy the address of repository
+</p>
+<img src="git_guide4.png" height="400" width=" 1000" alt="xyz">
+<p>Open git bash, Go to the current directory where you want the cloned directory to be added.<br><br>
+Use "git clone" command and paste the address copied as shown below:</p>
+<img src="git_guide5.png" height="400" width=" 1000" alt="xyz">
+
+<h2>Step 5: Create a file</h2>
+<img src="git_guide6.png" height="300" width=" 1000" alt="xyz">
+
+<h2>Step 5: Add the file</h2>
+<p>The "<b>git add</b>" command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file<br>
+in the next commit. However, git add doesn't really affect the repository in any significant way—changes are not actually recorded until you run git commit.<br><br>
+<b>git add 'yourFileName'</b>
+</p>
+
+<h2>Step 6: Commit the file</h2>
+<p>
+    The "<b>git commit</b>" command will save all staged changes, along with a brief description from the user.<br>
+    In "commit message" , you can enter anything that describes the changes you are committing.<br><br>
+    <b>git commit -m "commit message"</b>
+</p>
+
+<h2>Step 7: Git Status</h2>
+    <p>
+        The git status command displays the state of the working directory and the staging area. It lets you see which changes have been staged, which haven't,<br>
+        and which files aren't being tracked by Git.<br><br>
+        <b>git status</b>
+    </p>
+
+<h2>Step 8: Git Push</h2>
+<p>
+    After committing your changes, the next thing you want to do is send your changes to the remote server. Git push uploads your commits to the remote repository.<br><br>
+    <b>git push</b>
+</p>
+
+<h2>Step 9: Git Pull</h2>
+<p>
+    The git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content. Merging remote<br>
+     upstream changes into your local repository is a common task in Git-based collaboration work flows.<br><br>
+     <b>git pull</b>
+</p>
+<img src="git_guide7.png" height="500" width=" 1000" alt="xyz">
+
+</body>
+</html>
